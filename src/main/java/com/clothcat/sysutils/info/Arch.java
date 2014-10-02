@@ -39,7 +39,7 @@ import org.apache.commons.cli.ParseException;
  */
 public class Arch {
 
-    static final String version = "Arch.java version 0.0\n"
+    static final String version = "Arch version 0.0\n"
             + "Copyright \u00A9 2014 " + Constants.SSTA_NAME + "  " + Constants.SSTA_EMAIL + "\n"
             + "License:" + Constants.MIT_LICENSE;
 
