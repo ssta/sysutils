@@ -24,7 +24,6 @@
 package com.clothcat.sysutils.files;
 
 import com.clothcat.sysutils.Constants;
-import java.io.File;
 import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -67,9 +66,7 @@ public class Basename {
     }
 
     public static void basename(String[] args) {
-        // temp
-        String[] a = new String[]{"-z", "--suffix=txt", "a/b/c.txt", "b/c/d/e.gif", "c.txt"};
-        parseOptions(a);
+        parseOptions(args);
         if (commandLine.hasOption("help")) {
             help();
             // exit early
